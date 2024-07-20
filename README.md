@@ -1,23 +1,17 @@
-# Covid19-Data-Engineering-Project
+# IPL-Data-Data-Engineering-Project-With-Apache-Spark
 
-![AWS Architecture](./AWS%20Architecture.png)
+![Data Architecture](./Data%20Architecture.png)
 
-Dataset URL:  https://aws.amazon.com/blogs/big-data/a-public-data-lake-for-analysis-of-covid-19-data/  
+Dataset URL:  https://data.world/raghu543/ipl-data-till-2017  
 
 Steps:
 
-1. Understand the data in the datasets
-2. Upload the data to S3
-3. Build crawlers using AWS Glue
-4. The data can be seen on Athena
-5. Build Data Model
-6. Build Dimensional model using star schema
-7. Creation of Dimension and Fact Tables in python (pandas)
-8. Loading data into those tables in python (pandas)
-9. Save resulted CSV files onto S3
-10. Writing a AWS Glue Job using Python Shell Script
-   - Connect to Redshift
-   - Create Dimension and Fact Table schemas.
-   - Load data from CSV files in S3 to Redshift
+1. Understand the data in the datasets.
+2. Upload the data to S3.
+3. Create a cluster in Databricks.
+4. Connect to that cluster and load the data into the python notebook using # PYSPARK in Databricks.
+5. Make sure the right datatypes are there for the attributes. If not, change the data types.
+6. Transform the data by adding new columns logically.
+7. Written SQL queries to analyze the data.
+8. Built visualizations using Matplotlib and seaborn.
 
-### This is the creation of a datawarehouse.
